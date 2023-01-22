@@ -25,6 +25,10 @@ const Pokemon = () => {
     const [hp, setHp] = useState(0)
     //Attack
     const [attack, setAttack] = useState(0)
+    //Defense
+    const [defense, setDefense] = useState(0)
+    //Defense
+    const [speed, setSpeed] = useState(0)
     //moves
     const [moves, setMoves] = useState([
         {
@@ -56,6 +60,8 @@ const Pokemon = () => {
         setBackShinyImg(res.data.sprites.back_shiny)
         setHp(res.data.stats[0].base_stat)
         setAttack(res.data.stats[1].base_stat)
+        setDefense(res.data.stats[2].base_stat)
+        setSpeed(res.data.stats[5].base_stat)
         setMoves(res.data.moves)
     }   
     function Content (props){
@@ -101,8 +107,16 @@ const Pokemon = () => {
                     <progress className="nes-progress is-error" value={hp} max="300"></progress>
                 </div>
                 <div className='attackLevel'>
-                    <span className="nes-text is-primary">Attack : {attack}</span>
-                    <progress className="nes-progress is-primary" value={hp} max="300"></progress>
+                    <span className="nes-text is-primary">Attack: {attack}</span>
+                    <progress className="nes-progress is-primary" value={attack} max="300"></progress>
+                </div>
+                <div className='defenseLevel'>
+                    <span className="nes-text is-warning">Defense: {defense}</span>
+                    <progress class="nes-progress is-warning" value={defense} max="300"></progress>
+                </div>
+                <div className='speedLevel'>
+                    <span className="">Speed: {speed}</span>
+                    <progress className="nes-progress is-pattern" value={speed} max="300"></progress>
                 </div>
                 <h3>Moves-</h3>
                 <ul className='nes-list is-disc'>
@@ -120,10 +134,10 @@ const Pokemon = () => {
     return (
         <div className='pokemonPage'  >
             <button id='loadPokemon' className='nes-btn is-warning' onClick={getPokemon}>Load Pokemon</button>
+            <br/>
             {
                 name === "" ? <div></div> : <Content> </Content> 
             }
-            <br/>
             <div className='pokemonContainer' id='container'>
             </div>
         </div>
