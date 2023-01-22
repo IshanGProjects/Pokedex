@@ -1,13 +1,58 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+*{
+  font-family: 'Press Start 2P';
+  font-style: normal;
+  font-weight: 400;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* base styles */
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 2000 px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+}
+
+.pokeBall{
+  width: 75px;
+  height: 75px;
+}
+.navbar h1 {
+  align-items: right;
+  color: #f1356d;
+}
+.navbar .links {
+  margin-left: auto;
+}
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #f1356d;
+}
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+#Text{
+  fill:rgb(91, 90, 90)
+}
+.pokeImg{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#loadPokemon {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
