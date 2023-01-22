@@ -16,7 +16,7 @@ const Home = () => {
         
         <div className="home">
             <div className="nes-container is-rounded is-dark" id="homeContainer">
-                <Typer>Welcome Sarus Lifting, Thank you for giving me the oppurtunity to apply for this postion. Have fun Checking out the web-app I made!</Typer>
+                <Typer>Welcome Sarus Lifting, Thank you for giving me the oppurtunity to apply for this postion. Have fun checking out the web-app I made!</Typer>
                 <img src="ash.gif" alt=""></img>
                 <Typer>With Passion,</Typer>
                 <Typer>Ishan Gohil</Typer>
