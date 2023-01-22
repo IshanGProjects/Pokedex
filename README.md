@@ -1,10 +1,17 @@
-# Getting Started with Create React App
+# Pokedex ![favicon-32x32](https://user-images.githubusercontent.com/86436938/213903415-b4c46084-eba4-4b23-93c3-05d86805e46f.png)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## LINK TO ONLINE WEBSITE (https://pokedex-lovat-delta.vercel.app/pokemon)
+
+![Screen Shot 2023-01-21 at 11 22 08 PM](https://user-images.githubusercontent.com/86436938/213903457-8f190731-dd07-49ad-bcfc-64d565b4f660.png)
+
 
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+This will download all the dependencies
 
 ### `npm start`
 
@@ -14,57 +21,21 @@ Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 The page will reload when you make changes.\
 You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Project Tech Stack
+- React JS
+- Node JS (Dependencies)
+- CSS
+- HTML
+- JS
+- Axios
+- useSound A React Hook for Sound Effects
+- nes.css library (https://nostalgic-css.github.io/NES.css/) Link Here
 
-### `npm run build`
+## Project Description
+As per the instructions given for this project I wanted to use npx create react app to get a simple project structure going. As for some dependencies, since this template is built for single page apps, I decided to make use of the router. I always found the system for routing in in React to be super interesting as when the URL changes, the router uses the defined routes to determine which component should be displayed. This allows for a single-page application (SPA) experience, where the entire page does not need to be reloaded when navigating between different sections of the application. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Some Cool Features
+- One of the things I wanted to do was make a cool text scrolling effect. I was able to achieve this with the useEffect library which allows you to manually change the DOM in React components. The best part of the component structure is that component is a really easy utility to incorporrate throughout the application.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- using the useSound  library I also included a sound hook that plays the themsong of the pokemon games when hovering over the home or find pokemon buttons. 
