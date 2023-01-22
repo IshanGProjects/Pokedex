@@ -1,4 +1,9 @@
-# Pokedex
+# Pokedex ![favicon-32x32](https://user-images.githubusercontent.com/86436938/213903415-b4c46084-eba4-4b23-93c3-05d86805e46f.png)
+
+## LINK TO ONLINE WEBSITE (https://pokedex-lovat-delta.vercel.app/pokemon)
+
+![Screen Shot 2023-01-21 at 11 22 08 PM](https://user-images.githubusercontent.com/86436938/213903457-8f190731-dd07-49ad-bcfc-64d565b4f660.png)
+
 
 ## Available Scripts
 
