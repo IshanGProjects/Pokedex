@@ -29,7 +29,7 @@ You may also see any lint errors in the console.
 - HTML
 - JS
 - Axios
-- useSound A React Hook for Sound Effects
+- useSound A React Hook for Sound Effects (https://github.com/joshwcomeau/use-sound) Link Here
 - nes.css library (https://nostalgic-css.github.io/NES.css/) Link Here
 
 ## Project Description
